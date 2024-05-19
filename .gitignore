@@ -1,32 +1,131 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
-*.slo
-*.lo
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
 
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
-*.mod
-*.smod
-
 # Compiled Static libraries
-*.lai
-*.la
-*.a
 *.lib
+*.a
 
 # Executables
 *.exe
 *.out
 *.app
+
+# SDL2 build artifacts and configurations
+*.log
+*.db
+
+# CMake build directories
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/CTestTestfile.cmake
+/CMakeLists.txt.user
+
+# Visual Studio Code settings
+.vscode/
+
+# Visual Studio directories and files
+.vs/
+*.vcxproj*
+*.user
+*.sdf
+*.opensdf
+*.filters
+*.ipch
+*.pdb
+*.idb
+*.tlog
+*.lastbuildstate
+*.suo
+*.cache
+*.ilk
+*.log
+*.ncb
+*.aps
+*.iobj
+*.ipdb
+*.obj
+*.sln
+
+# Xcode directories and files
+*.xcworkspace
+*.xcodeproj
+xcuserdata/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+
+# Qt Creator
+*.pro.user
+*.qmake.stash
+*.qmake.cache
+
+# Code::Blocks
+*.depend
+*.layout
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# JetBrains IDEs
+.idea/
+*.iml
+
+# macOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+desktop.ini
+
+# Custom user settings files
+*.pri
+*.prl
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.swn
+
+# C++ specific ignores
+*.d
+*.s
+*.mod
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# SDL2 specific directories and files
+sdl2-config
+
+# Build directories
+/build/
+/bin/
+/bin-int/
+/Debug/
+/Release/
+/out/
+/*.build/
